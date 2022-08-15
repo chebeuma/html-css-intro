@@ -5,9 +5,33 @@
 <style>
     body{background-color: royalblue; color:aliceblue}
     div {background-color: purple; color:aliceblue}
+<<<<<<< Updated upstream:htmlcss/index.html
     .input-group{
         display: flex;
         flex-direction: column;
+=======
+    .fruits{color:yellow}
+    .daily{color: pink;font-size: 10px;}
+    .box-model{
+        border-width: 3px;
+        border-style: dotted;
+        padding:10px;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align:center;
+    }
+    .my-first-button{
+        margin-top: 20px;
+        padding: 20px 40px;
+
+    }
+    .registrationform{
+background:greenyellow;
+display: flex;
+flex-direction: column;
+>>>>>>> Stashed changes:index.html
     }
 </style>
     </head>
@@ -40,13 +64,14 @@
         <div style="border-style:solid">
             <a href="https://www.w3schools.com/html/html_form_attributes.aspmy" target="_blank" >my w3 schools link
             </a>
-        </div>
+        </div id="list container">
         <div style="border-style:solid">
-            <ul>
+            <ul class="fruits">
+                
                 <li>apple</li>
                 <li>banana</li>
             </ul>
-                <ol>
+                <ol class="daily">
                 <li>go to class</li>
                 <li>go to shopping</li>
                 </ol>
@@ -55,5 +80,32 @@
             
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/F5mk_hbLsaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="box-model"> my box model</div>
+    <button class="my-first-button">my button</button>
+    
+   <form class="registrationform">
+    <h3><strong>rigestration form</strong></h3>
+    <hr />
+    <div>
+    <input name="firstname"type="text"/>
+    <input name="lastname"type="text" />
+    <input name="email" type="email" />
+    <input name="password"type="password"/>
+</div>
+<div>
+    <label>
+        <input name="remembering" type="checkbox"/>
+    </label>
+</div>
+<div>
+    <button type="submit">register</button>
+</div>
+<div>
+    <a href="#">have an account already?log in here.</a>
+    <a href="#">sign in</a>
+</div>
+
+   </form>
+    
     </body>
 </html>
