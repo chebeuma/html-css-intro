@@ -1,0 +1,15 @@
+
+.order-summary .summary-left {
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    margin: 10px;
+    margin-left:62px
+}
+
+.order-summary .summary-right {
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    margin: 10px;
+}

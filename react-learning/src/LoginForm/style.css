@@ -1,10 +1,14 @@
+.total-page{
+    background-color: rgb(78, 132, 78);
+    height: auto;
+}
+
+
 .login-page{
 
-
-    background-color:rgb(164, 245, 52);
-     background-color:rgb(164, 245, 52);
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+    
+}
