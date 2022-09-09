@@ -3,11 +3,12 @@ import './App.css';
 //import Form from './component/form';
 //import OrderSummary from './Order summary/index';
 //import LoginForm from './LoginForm/index';
-import OrderSummary from './Order summary';
+//import OrderSummary from './Order summary';
+import PageContainer from "./PageContainer"
 function App() {
   return (
     <div className="App">
-<OrderSummary/>
+<PageContainer/>
     </div>
   );
 }

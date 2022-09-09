@@ -4,7 +4,7 @@ import { useState } from "react"
 const CartCounter= () =>{
     const [counter,setCounter] =useState(1)
 return(
-    <div className="flex">
+    <div className="flex mt-1 p-4">
                   <div className="border border-black flex py-6">
                        <div className="w-3/12 flex">
                           <img src={require('./images.jpg')} ></img>
@@ -34,7 +34,7 @@ return(
                      </div>
             
 
-                                <h3 className="w-2/12 text-lg p-1">
+                                <h3 className="w-2/12 text-lg p-2 mt-4">
                                     <strong>$149.99</strong>
                                 </h3>
 
