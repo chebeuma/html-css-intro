@@ -407,27 +407,36 @@
 
 
 
-  function Bird(color,eyes,legs){
-    this.color=color;
-    this.eyes=eyes;
-    this.legs=legs;
-  }
-  // this.eat=function(){
-  // console.log(eat)
-  // }
-  // this.sleep=function(){
-  // return 'i can sleep in the night'
-  // }
-  this.setName=function(name){
-    this.name=name
-  }
-  this.getName=function(){
-    return this.name
-  }
+//   function Bird(color,eyes,legs){
+//     this.color=color;
+//     this.eyes=eyes;
+//     this.legs=legs;
+//   }
+//   // this.eat=function(){
+//   // console.log(eat)
+//   // }
+//   // this.sleep=function(){
+//   // return 'i can sleep in the night'
+//   // }
+//   this.setName=function(name){
+//     this.name=name
+//   }
+//   this.getName=function(){
+//     return this.name
+//   }
 
- const birdA=new Bird('white',2,2);
- const birdB=new Bird('green',2,2);
- console.log(birdA)
- console.log(birdB)
- birdB.name='parrot'
- console.log(birdB)
+//  const birdA=new Bird('white',2,2);
+//  const birdB=new Bird('green',2,2);
+//  console.log(birdA)
+//  console.log(birdB)
+//  birdB.name='parrot'
+//  console.log(birdB)
+
+
+
+
+const array=[1,2,3,4,5,6]
+const arr=array[0]
+const arr1=array.length-1
+//console.log(arr)
+console.log(arr1)

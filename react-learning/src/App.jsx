@@ -6,12 +6,15 @@ import './App.css';
 //import OrderSummary from './Order summary';
 //import PageContainer from "./PageContainer"
 //import DataFetcher from './DataFetcher';
-import AddressCard from './CheckoutPage'
+//mport AddressCard from './CheckoutPage'
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-   <AddressCard/>
+    <Navbar/>
     </div>
+
+
   );
 }
 
