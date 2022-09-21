@@ -435,8 +435,8 @@
 
 
 
-const array=[1,2,3,4,5,6]
-const arr=array[0]
-const arr1=array.length-1
-//console.log(arr)
-console.log(arr1)
+// const array=[1,2,3,4,5,6]
+// const arr=array[0]
+// const arr1=array.length-1
+// //console.log(arr)
+// console.log(arr1)

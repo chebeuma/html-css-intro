@@ -1,12 +1,13 @@
-import Container from './Container'
+import Container from "./Container";
+import AddAddress from "./AddAdress";
 
-function AddressCard(){
-    return(
-       
-        <div className='text-start m-4 p-4 text-2xl'>Address
-       <Container/>
-        </div>
-       
-    )
+function AddressCard() {
+  return (
+    <div className="text-start m-4 p-4 text-2xl">
+      Address
+      <Container />
+      <AddAddress />
+    </div>
+  );
 }
-export default AddressCard
+export default AddressCard;

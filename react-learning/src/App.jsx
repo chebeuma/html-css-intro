@@ -1,20 +1,26 @@
 //import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+//import AddressCard from "./components/CheckoutPage";
 //import Form from './component/form';
 //import OrderSummary from './Order summary/index';
 //import LoginForm from './LoginForm/index';
 //import OrderSummary from './Order summary';
 //import PageContainer from "./PageContainer"
-//import DataFetcher from './DataFetcher';
-//mport AddressCard from './CheckoutPage'
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar/index";
+import DataFetcher from "./components/DataFetcher/index";
+//import AddressCard from "./components/CheckoutPage/index";
+
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+      <Navbar />
+      <DataFetcher />
+      <div>
+        <footer className="flex flex-between bg-blue-200 p-3  text-green-500">
+          Add to Wishlist
+        </footer>
+      </div>
     </div>
-
-
   );
 }
 
