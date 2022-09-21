@@ -1,12 +1,12 @@
 const Container = () => {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col w-80 m-4">
+      <div className="flex flex-col m-4 md:w-5/12">
         <div className="flex justify-between">
           <div className="flex flex-row">
             <div className="text-xl p-1 ">Huzefa Bagwala</div>
 
-            <button className="border border-green-100 text-xs p-1 text-green-300">
+            <button className="border border-green-100 text-xs p-1 text-green-400">
               <a href="#"> HOME</a>
             </button>
           </div>
@@ -29,12 +29,12 @@ const Container = () => {
       </div>
 
       <div>
-        <div className="flex flex-col m-4 w-80">
+        <div className="flex flex-col m-4 md:w-5/12">
           <div className="flex justify-between">
             <div className="flex flex-row">
               <div className="text-xl p-1 ">IndiaTech</div>
 
-              <button className="border border-green-100 text-xs p-1 text-green-300">
+              <button className="border border-green-100 text-xs p-1 text-green-400">
                 <a href="#">HOME</a>
               </button>
             </div>

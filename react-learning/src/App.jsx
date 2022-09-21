@@ -6,20 +6,14 @@ import "./App.css";
 //import LoginForm from './LoginForm/index';
 //import OrderSummary from './Order summary';
 //import PageContainer from "./PageContainer"
-import Navbar from "./components/Navbar/index";
-import DataFetcher from "./components/DataFetcher/index";
-//import AddressCard from "./components/CheckoutPage/index";
+//import Navbar from "./components/Navbar/index";
+//import DataFetcher from "./components/DataFetcher/index";
+import AddressCard from "./components/CheckoutPage/index";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <DataFetcher />
-      <div>
-        <footer className="flex flex-between bg-blue-200 p-3  text-green-500">
-          Add to Wishlist
-        </footer>
-      </div>
+      <AddressCard />
     </div>
   );
 }
