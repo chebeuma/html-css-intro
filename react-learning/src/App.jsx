@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <DataFetcher />
       <div>
-        <footer className="flex flex-between bg-blue-200">
+        <footer className="flex flex-between bg-blue-200 text-green-500 p-3">
           Add to Wishlist
         </footer>
       </div>
