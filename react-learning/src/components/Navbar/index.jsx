@@ -38,7 +38,7 @@ function Navbar() {
   ];
   return (
     <nav className="flex justify-between bg-blue-300">
-      <div className="p-1">COZY</div>
+      <div className=" m-2 p-1">COZY</div>
 
       <ul className="flex space-x-5">
         {links.map(({ id, name, href }) => (
