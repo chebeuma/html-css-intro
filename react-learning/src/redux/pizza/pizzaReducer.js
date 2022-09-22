@@ -1,12 +1,12 @@
-import { INCREMENT, DECREMENT } from "./pizzaTypes";
+import { BUY, RETURN } from "./pizzaTypes";
 
 const initialPizza = 10;
 
 const pizzaReducer = (pizza = initialPizza, action) => {
   switch (action.type) {
-    case INCREMENT:
+    case BUY:
       return pizza + action.type;
-    case DECREMENT:
+    case RETURN:
       return pizza - action.type;
     default:
       return pizza;

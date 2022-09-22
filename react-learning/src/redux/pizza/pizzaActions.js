@@ -1,13 +1,13 @@
-import { INCREMENT, DECREMENT } from "./pizzaTypes";
-export function increment() {
+import { BUY, RETURN } from "./pizzaTypes";
+export function buy() {
   return {
-    type: INCREMENT,
-    payload: 10,
+    type: BUY,
+    payload: 1,
   };
 }
-export function decrement() {
+export function return() {
   return {
-    type: DECREMENT,
-    payload: 10,
+    type: RETURN,
+    payload: 1,
   };
 }
