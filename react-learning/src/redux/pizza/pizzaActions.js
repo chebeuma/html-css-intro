@@ -1,11 +1,11 @@
 import { BUY, RETURN } from "./pizzaTypes";
-export function buy() {
+export function buyPizza() {
   return {
     type: BUY,
     payload: 1,
   };
 }
-export function return() {
+export function returnPizza() {
   return {
     type: RETURN,
     payload: 1,
