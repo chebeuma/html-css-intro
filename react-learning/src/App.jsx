@@ -8,18 +8,22 @@ import "./App.css";
 //import PageContainer from "./PageContainer"
 import Navbar from "./components/Navbar/index";
 import DataFetcher from "./components/DataFetcher/index";
+//import Bank from "./components/Bank/index";
 //import AddressCard from "./components/CheckoutPage/index";
+import Pizza from "./components/Pizza/index";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <DataFetcher />
+
       <div>
         <footer className="flex flex-between bg-blue-200 text-green-500 p-3">
           Add to Wishlist
         </footer>
       </div>
+      <Pizza />
     </div>
   );
 }
