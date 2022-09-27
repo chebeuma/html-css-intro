@@ -6,24 +6,17 @@ import "./App.css";
 //import LoginForm from './LoginForm/index';
 //import OrderSummary from './Order summary';
 //import PageContainer from "./PageContainer"
-import Navbar from "./components/Navbar/index";
-import DataFetcher from "./components/DataFetcher/index";
+//import Navbar from "./components/Navbar/index";
+//import DataFetcher from "./components/DataFetcher/index";
 //import Bank from "./components/Bank/index";
 //import AddressCard from "./components/CheckoutPage/index";
-import Pizza from "./components/Pizza/index";
+//import Pizza from "./components/Pizza/index";
+import Cake from "./components/Cake/index";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <DataFetcher />
-
-      <div>
-        <footer className="flex flex-between bg-blue-200 text-green-500 p-3">
-          Add to Wishlist
-        </footer>
-      </div>
-      <Pizza />
+      <Cake />
     </div>
   );
 }

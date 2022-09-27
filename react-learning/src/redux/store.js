@@ -1,6 +1,13 @@
-import { createStore } from "redux";
+import { createStore, combineReducers } from "redux";
+import cakeReducer from "./cake/cakeReducer";
 //import balanceReducer from "./balance/balanceReducer";
-import pizzaReducer from "./pizza/pizzaReducer";
+//import pizzaReducer from "./pizza/pizzaReducer";
 //const store = createStore(balanceReducer);
-const store = createStore(pizzaReducer);
+//import cakeReducer from "./cake/cakeReducer";
+
+const rootReducer = combineReducers({
+  cakeReducer: cakeReducer,
+});
+
+const store = createStore(rootReducer);
 export default store;
