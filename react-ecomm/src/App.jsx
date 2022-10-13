@@ -9,7 +9,7 @@ import Register from "./pages/auth/Register";
 import Cart from "./pages/cart";
 import AboutUs from "./pages/about-us";
 import Contact from "./pages/contact";
-import Navbar from "./components/layout/Layout/Navbar";
+//import Navbar from "./components/layout/Layout/Navbar";
 
 function App() {
 	return (
@@ -29,10 +29,6 @@ function App() {
 						/>
 					</Route>
 
-					<Route
-						path="/navbar"
-						element={<Navbar />}
-					/>
 					<Route
 						path="/cart123"
 						element={<Cart />}
