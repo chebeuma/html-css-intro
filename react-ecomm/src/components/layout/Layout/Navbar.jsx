@@ -38,39 +38,51 @@ function Navbar() {
 		},
 	];
 	return (
-		<nav className="flex justify-between bg-blue-300">
-			<div className=" m-2 p-1">COZY</div>
+		<nav className="header">
+			<div className="left-nav">
+				<div>COZY</div>
+			</div>
 
-			<ul className="flex space-x-5">
-				{links.map(({ id, name, href }) => (
-					<li className="m-3" key={id}>
-						<a href={href}>{name}</a>
-					</li>
-				))}
-			</ul>
-			<ul className="flex">
-				<li className="m-3">
-					<a>
-						<FontAwesomeIcon
-							icon={faBars}
-						/>
-					</a>
-				</li>
-				<li className="m-3 P-1">
-					<a>
-						<FontAwesomeIcon
-							icon={faMagnifyingGlass}
-						></FontAwesomeIcon>
-					</a>
-				</li>
-				<li className="m-3 P-1">
-					<a>
-						<FontAwesomeIcon
-							icon={faCartShopping}
-						></FontAwesomeIcon>
-					</a>
-				</li>
-			</ul>
+			<div>
+				<ul className="middle-nav">
+					{links.map(({ id, name, href }) => (
+						<ul className="m-3" key={id}>
+							<a href={href}>
+								{name}
+							</a>
+						</ul>
+					))}
+				</ul>
+			</div>
+			<div>
+				<ul className="right-nav">
+					<ul>
+						<a>
+							<FontAwesomeIcon
+								icon={faBars}
+							/>
+						</a>
+					</ul>
+					<ul>
+						<a>
+							<FontAwesomeIcon
+								icon={
+									faMagnifyingGlass
+								}
+							></FontAwesomeIcon>
+						</a>
+					</ul>
+					<ul>
+						<a>
+							<FontAwesomeIcon
+								icon={
+									faCartShopping
+								}
+							></FontAwesomeIcon>
+						</a>
+					</ul>
+				</ul>
+			</div>
 		</nav>
 	);
 }

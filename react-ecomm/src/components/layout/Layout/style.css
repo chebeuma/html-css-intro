@@ -1,7 +1,25 @@
-.navbar {
-	background-color: white;
+.header {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(139, 246, 246);
+}
+.left-nav {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	border-bottom: 1px solid black;
+	margin-left: 2em;
+	padding: 1em;
+}
+.middle-nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0em;
+	margin-left: 18em;
+	padding: 1em;
+}
+.right-nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0em;
+	margin-left: 12em;
+	padding: 1em;
 }
