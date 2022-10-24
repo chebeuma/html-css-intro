@@ -1,22 +1,22 @@
-import { cakesAvailable } from "./cakeReducer";
+//import { cakesAvailable } from "./cakeReducer";
 import { BUYCAKE, RETURNCAKE, RESETCAKE } from "./cakeTypes";
 export function buyCake(payload) {
-  return {
-    type: BUYCAKE,
-    payload,
-  };
+	return {
+		type: BUYCAKE,
+		payload,
+	};
 }
 
 export function returnCake(payload) {
-  return {
-    type: RETURNCAKE,
-    payload,
-  };
+	return {
+		type: RETURNCAKE,
+		payload,
+	};
 }
 
 export function resetCake() {
-  return {
-    type: RESETCAKE,
-    payload: cakesAvailable,
-  };
+	return {
+		type: RESETCAKE,
+		payload: 30,
+	};
 }
