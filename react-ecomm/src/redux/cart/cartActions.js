@@ -1,8 +1,8 @@
 import { INCREASE, DECREASE } from "./cartTypes";
-export function add() {
+export function add(count) {
 	return {
 		type: INCREASE,
-		payload: 1,
+		payload: count,
 	};
 }
 export function substract() {

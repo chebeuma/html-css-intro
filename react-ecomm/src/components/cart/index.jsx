@@ -1,18 +1,27 @@
 import { useDispatch, useSelector } from "react-redux";
 import { add, substract } from "../../redux/cart/cartActions";
+import React from "react";
 
 const Cart = () => {
 	const availablity = useSelector((state) => state);
 	const dispatch = useDispatch();
 
 	const addChairs = () => {
-		const action = add();
+		const action = add(1);
 		dispatch(action);
 	};
 	const substractChairs = () => {
 		const action = substract();
 		dispatch(action);
 	};
+
+	let textInput = React.createRef();
+
+	function handleClick() {
+		console.log(textInput.current.value);
+		const action = add(textInput.current.value);
+		dispatch(action);
+	}
 
 	return (
 		<div>
@@ -45,6 +54,23 @@ const Cart = () => {
 							>
 								-
 							</button>
+							<div>
+								<input
+									ref={
+										textInput
+									}
+									placeholder="Type a message..."
+								/>
+								<div
+									onClick={
+										handleClick
+									}
+									className="icon"
+								>
+									bulk add
+									<i className="fa fa-play" />
+								</div>
+							</div>
 							<h1>
 								Avaialable:
 								{availablity}
@@ -79,6 +105,17 @@ const Cart = () => {
 								}
 							>
 								+
+							</button>
+							<input
+								type="text"
+								name="name"
+							></input>
+							<button
+								onClick={
+									addChairs
+								}
+							>
+								bulkadd
 							</button>
 							<h1>
 								Avaialable:

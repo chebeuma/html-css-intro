@@ -30,10 +30,10 @@ const Cake = () => {
 
       <label>
         Number of cakes to buy:
-        <input>
+        <input
           className="border p-1 rounded-md" type="number" min-{1}
           value={cakesBuy}
-          onChange={handleCakesBuy}
+          onChange={handleCakesBuy}>
         </input>
       </label>
       <button className="border border-black p-1 m-2" onClick={handleBuyCakes}>
